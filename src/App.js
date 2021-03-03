@@ -25,7 +25,7 @@ function App({ theme }) {
   );
 }
 
-// Live reload != hot reload! CRA doesn't do hot reload, so we install it here.
+// Live reload != hot reload! CRA doesn't do hot reload, so we install it here .
 let HotApp = process.env.NODE_ENV === 'production' ? App : hot(module)(App);
 
 export default styled(HotApp);
